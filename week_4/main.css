@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Comfortaa:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 1em;
+    padding-top: 0.5em;
+    padding-left: 2em;
+    grid-area: header;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+nav {
+    background-color: yellow;
+    padding: 1em;
+    grid-area: nav;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+main {
+    background-color: darkblue;
+    color: white;
+    grid-area: main;
+}
+
+aside {
+    background-color: lightgreen;
+    grid-area: aside;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    grid-area: footer;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+main p {
+    padding-left: 2em;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+footer p {
+    text-align: right;
+    padding-right: 2em;
+}
